@@ -4,8 +4,8 @@ import numpy as np
 def main():
 	# Load images
 	try:
-		img1 = cv2.imread(r"C:\Users\MEHER SIDHU\Downloads\Dr_Shashi_Tharoor.jpg")  # Change to actual file name
-		img2 = cv2.imread(r"C:\Users\MEHER SIDHU\Downloads\Plaksha_Faculty.jpg")
+		img1 = cv2.imread(r"Dr_Shashi_Tharoor.jpg")  # Change to actual file name
+		img2 = cv2.imread(r"Plaksha_Faculty.jpg")
 	except Exception:
 		return False
 
